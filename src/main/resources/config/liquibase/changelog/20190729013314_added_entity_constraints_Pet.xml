@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Pet.
+    -->
+    <changeSet id="20190729013314-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="dono_id"
+                                 baseTableName="pet"
+                                 constraintName="fk_pet_dono_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pessoa"/>
+
+    </changeSet>
+</databaseChangeLog>

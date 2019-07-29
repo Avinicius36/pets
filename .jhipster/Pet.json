@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "dono",
+            "otherEntityName": "pessoa",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nome"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "100"
+        },
+        {
+            "fieldName": "genero",
+            "fieldType": "GeneroPet",
+            "fieldValues": "MACHO,FEMEA"
+        },
+        {
+            "fieldName": "dataNascimento",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20190729013314",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "pet",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "infinite-scroll"
+}
