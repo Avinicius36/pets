@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.vinicius.pets"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "pets",
+    "packageName": "com.vinicius.pets",
+    "packageFolder": "com/vinicius/pets",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDkwNTI3ODQyN2NhYzQxN2RkMDdhNThmMzA2NTFkZGUyMjkyMTc5ODUxOWFjNjQ1NjY0OTExYjJkMWViMzRmODM3YWZiNGZkYzBjNWM4MjkyMGFhMjY5OGEzNTZjMDU4MTlhZjdhMzRiYzhjNjViN2Q1YjZkNjY2ODE3MmI5NTg=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "materia",
+    "clientThemeVariant": "light",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
